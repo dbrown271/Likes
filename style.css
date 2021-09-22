@@ -1,0 +1,98 @@
+/* CSS Resets */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Nav */
+.nav {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    gap: 115px;
+    justify-content: space-around;
+    background-color: gray;
+    padding: 20px 0;
+}
+
+
+/* Your Feed */
+.top {
+    display: flex;
+    justify-content: center;
+}
+
+/* Profile */
+#profile-box {
+    border: 2px solid black;
+    flex: 1;
+}
+
+.pic-icon {
+    width: 95px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.profile {
+    margin: 30px auto;
+    padding: 27px 0;
+    width: 106px;
+}
+
+/* Mains */
+.main-1 {
+    display: flex;
+    width: 1345px;
+    margin: 35px auto;
+    gap: 225px;
+    justify-content: end;
+}
+
+.main-2 {
+    display: flex;
+    width: 1345px;
+    margin: 0 auto;
+    gap: 115px;
+    justify-content: end;
+}
+.main-3 {
+    display: flex;
+    width: 1345px;
+    margin: 25px auto;
+    gap: 115px;
+    justify-content: end;
+}
+
+/* Boxes */
+.box-1 {
+    border: 2px solid black;
+    width: 816px;
+    height: 129px;
+}
+
+.box-2 {
+    border: 2px solid black;
+    width: 816px;
+}
+
+.box-3 {
+    border: 2px solid black;
+    width: 816px;
+}
+
+/* Buttons */
+button {
+    background-color: rgb(245, 197, 40);
+    color: black;
+    border-color: black;
+    box-shadow: 3px 3px black;
+    width: 140px;
+    border-style: double;
+    padding: 10px;
+    cursor: pointer;
+}
